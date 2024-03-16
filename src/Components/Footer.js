@@ -6,14 +6,10 @@ const Footer = () =>
     const year=new Date().getFullYear()
 
     return ( 
-        <Navbar bg='dark' data-bs-theme="dark">
-        <Navbar.Collapse id="navbar" className='flex flex-col'>
+        <Navbar fixed='bottom' className='navbar'>
             <Nav className='mx-auto p-2'>
-                <Nav.Link href="#">
-                    TM © {year} - Samuel Ndung'u Muigai - All Rights Reserved
-                </Nav.Link>
+                <Nav.Item className='text-light'>TM © {year} - Samuel Ndung'u Muigai - All Rights Reserved</Nav.Item>
             </Nav>
-        </Navbar.Collapse>
         </Navbar>
      );
 }
