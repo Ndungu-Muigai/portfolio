@@ -6,7 +6,7 @@ const Footer = () =>
     const year=new Date().getFullYear()
 
     return ( 
-        <Navbar expand="lg" bg='dark' data-bs-theme="dark">
+        <Navbar bg='dark' data-bs-theme="dark">
         <Navbar.Collapse id="navbar" className='flex flex-col'>
             <Nav className='mx-auto p-2'>
                 <Nav.Link href="#">
