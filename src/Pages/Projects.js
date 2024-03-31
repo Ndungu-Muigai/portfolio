@@ -19,14 +19,14 @@ const Projects = () => {
     });
 
     return ( 
-        <div style={{height: "82.5vh"}}>
+        <>
             <h1 className='text-uppercase text-center fw-bolder text-decoration-underline my-4'>Projects completed</h1>
             <div className="container">
                 <div className="row">
                     {projectsMap}
                 </div>
             </div>
-        </div>
+        </>
     );
 };
  

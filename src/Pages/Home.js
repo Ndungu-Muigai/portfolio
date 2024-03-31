@@ -1,7 +1,5 @@
 import { ReactTyped } from "react-typed";
 
-import './CSS/Home.css';
-
 const Home = () => {
     return (
         <div className="home-container">

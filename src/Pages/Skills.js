@@ -22,7 +22,7 @@ const Skills = () =>
             <h1 className='text-uppercase text-center fw-bolder text-decoration-underline my-4'>My skills</h1>
             <div className="container">
                 <div className="row my-3">
-                    <h2>Programming languages</h2>
+                    <h2 className='text-uppercase text-decoration-underline'>Programming languages</h2>
                     {languages.map(language =>
                         {
                             return (
@@ -38,7 +38,7 @@ const Skills = () =>
                         })}
                 </div>
                 <div className="row">
-                    <h2>CSS Frameworks</h2>
+                    <h2 className='text-uppercase text-decoration-underline'>CSS Frameworks</h2>
                     {cssFrameworks.map(framework =>
                         {
                             return (
@@ -54,7 +54,7 @@ const Skills = () =>
                         })}
                 </div>
                 <div className="row my-3">
-                    <h2>Frameworks</h2>
+                    <h2 className='text-uppercase text-decoration-underline'>Frameworks</h2>
                     {frameworks.map(framework =>
                         {
                             return (
@@ -71,7 +71,7 @@ const Skills = () =>
                 </div>
                 
                 <div className="row">
-                    <h2>Databases</h2>
+                    <h2 className='text-uppercase text-decoration-underline'>Databases</h2>
                     {databases.map(database =>
                         {
                             return (
