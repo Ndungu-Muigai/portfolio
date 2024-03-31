@@ -3,7 +3,7 @@ import Contact from '../Data/Contacts.json'
 const Contacts = () => 
 {
     return ( 
-        <div className='mb-3'>
+        <div className='contacts mb-3'>
             <h1 className='text-uppercase text-center fw-bolder text-decoration-underline my-4'>Contacts</h1>
             <div className="container">
                 <div className="row">

@@ -6,7 +6,7 @@ import './assets/Navbar.css'
 import './assets/Skills.css'
 import './assets/Contacts.css'
 
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 
 import Footer from './Components/Footer';
 import NavBar from './Components/Navbar';
@@ -16,26 +16,30 @@ import Projects from './Pages/Projects';
 import Contacts from './Pages/Contacts';
 import About from './Pages/About';
 
-function App() {
+function App() 
+{
+  const location=useLocation()
+
+  //Array of paths where the footer will be excluded
+  const excludePath=["/"]
+
+  //Checking if the current location's path is in the excludes path array
+  const  showFooter = excludePath.includes(location.pathname) ? true : false
+
   return (
     <>
       <NavBar/>
-      <Routes>
-        <Route path='/' element={<Home/>}></Route>
-      </Routes>
-      <div id="about" style={{marginTop: "250px"}}>
-        <About/>
+      <div style={{marginTop: "100px"}}>
+        <Routes>
+          <Route path='/' element={<Home/>}></Route>
+          <Route path='/about' element={<About/>}></Route>
+          <Route path='/skills' element={<Skills/>}></Route>
+          <Route path='/projects' element={<Projects/>}></Route>
+          <Route path='/contacts' element={<Contacts/>}></Route>
+        </Routes>
       </div>
-      <div id="skills">
-        <Skills/>
-      </div>
-      <div id="projects">
-        <Projects/>
-      </div>
-      <div id="contacts">
-        <Contacts/>
-      </div>
-      <Footer/>
+      {console.log(showFooter)}
+      {!showFooter && <Footer/>}
     </>
   );
 }
