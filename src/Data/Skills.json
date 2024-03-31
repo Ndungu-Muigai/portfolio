@@ -32,7 +32,7 @@
         "frameworks": 
         [
             {
-                "name": "React.JS",
+                "name": "ReactJS",
                 "icon": "icon-reactjs",
                 "color": "lightblue"
             },
