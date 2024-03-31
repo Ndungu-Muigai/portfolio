@@ -17,8 +17,10 @@ const About = () =>
                     <p>
                         I have deep interest in ReactJS and Python and I have been able to  develop projects using these technologies. Feel free to look around.
                     </p>
+                    <a href="../Curriculum Vitae.pdf" target='_blank' download={"Curriculum Vitae.pdf"}>
+                        <button className='btn btn-primary'>Download CV</button>
+                    </a>
                 </div>
-                
             </div>
         </>
      );
