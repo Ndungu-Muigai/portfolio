@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/Home.css'
+import './assets/About.css'
 import './assets/Navbar.css'
 import './assets/Skills.css'
 import './assets/Contacts.css'

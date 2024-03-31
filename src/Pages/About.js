@@ -5,9 +5,9 @@ const About = () =>
 {
     return ( 
         <>
-            <div id='about' className="d-flex flex-row justify-content-evenly align-items-center m-5">
-                <img src={Profile} alt='Profile' className="img-fluid" style={{ width: '700px', height: 'auto' }}/>
-                <div className="intro m-5">
+            <div id='about' className="container about-container">
+                <img src={Profile} alt='Profile' className="img-fluid"/>
+                <div className="intro mx-2 mt-2">
                     <h1>ABOUT ME</h1>
                     <p>
                         My name is Samuel Muigai, a fullstack software Developer.
