@@ -4,7 +4,7 @@ const Contacts = () =>
 {
     return ( 
         <div id="contacts" className='mb-3'>
-            <h1 className='text-center text-uppercase my-4'>Contacts Page</h1>
+            <h1 className='text-center text-uppercase my-4'>Contacts</h1>
             <div className="container">
                 <div className="row">
                     {Contact.map(contact =>
