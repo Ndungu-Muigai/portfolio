@@ -12,3 +12,8 @@
     cursor: pointer;
     text-decoration: underline;
 }
+.navbar a:active
+{
+    background-color: lightblue;
+    color: white;
+}

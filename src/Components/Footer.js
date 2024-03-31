@@ -6,7 +6,7 @@ const Footer = () =>
     const year=new Date().getFullYear()
 
     return ( 
-        <Navbar fixed='bottom' className='navbar'>
+        <Navbar className='navbar'>
             <Nav className='mx-auto p-2'>
                 <Nav.Item className='text-light'>TM © {year} - Samuel Ndung'u Muigai - All Rights Reserved</Nav.Item>
             </Nav>

@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Nairobi, Kenya",
+        "icon": "fa-solid fa-location-dot",
+        "link": "https://maps.app.goo.gl/zqh2gG6eYYi84ZrLA"
+    },
+    {
+        "name": "Phone",
+        "icon": "fa fa-phone",
+        "link": "tel:+254707251073"
+    },
+    {
+        "name": "Email",
+        "icon": "fa fa-envelope-o",
+        "link": "mailto:ndungu.muigai01@gmail.com"
+    },
+    {
+        "name": "Instagram",
+        "icon": "fa fa-instagram",
+        "link": "https://www.instagram.com/mr.muigai"
+    },
+    {
+        "name": "WhatsApp",
+        "icon": "fa fa-whatsapp",
+        "link": "https://web.whatsapp.com/send?phone=254707251073"
+    },
+    {
+        "name": "GitHub",
+        "icon": "fa fa-github",
+        "link": "https://www.github.com/ndungu-muigai"
+    },
+    {
+        "name": "Twitter",
+        "icon": "fa fa-twitter",
+        "link": "https://www.twitter.com/MzeeMuigai"
+    },
+    {
+        "name": "LinkedIn",
+        "icon": "fa fa-linkedin",
+        "link": "https://www.linkedin.com/in/samuel-muigai-560355224/"
+    }
+]

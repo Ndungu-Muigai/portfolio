@@ -1,0 +1,77 @@
+[
+    {
+        "languages":
+        [
+            {
+                "name": "HTML5",
+                "icon": "icon-html5-alt",
+                "color": "#e34c26"
+            },
+            {
+                "name": "CSS3",
+                "icon": "icon-css3-alt",
+                "color": "blue"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "icon-javascript-alt",
+                "color": "yellow"
+            },
+            {
+                "name": "PHP",
+                "icon": "icon-php-alt",
+                "color": "#787cb5"
+            },
+            {
+                "name": "Python",
+                "icon": "icon-python"
+            }
+        ]
+    },
+    {
+        "frameworks": 
+        [
+            {
+                "name": "React.JS",
+                "icon": "icon-reactjs",
+                "color": "lightblue"
+            },
+            {
+                "name": "Flask",
+                "icon": ""
+            }
+        ]
+    },
+    {
+        "css_frameworks":
+        [
+            {
+                "name": "Bootstrap",
+                "icon": "fa-brands fa-bootstrap",
+                "color": "purple"
+            },
+            {
+                "name": "Tailwind",
+                "icon": "icon-tailwind"
+            }
+        ]
+    },
+    {
+        "databases": 
+        [
+            {
+                "name": "MySQL",
+                "icon": "icon-mysql",
+                "color": "blue"
+            },
+            {
+                "name": "PostreSQL",
+                "icon": "icon-postgres"
+            },
+            {
+                "name": "MongoDB",
+                "icon": "icon-mongodb"
+            }
+        ]
+    }
+]
