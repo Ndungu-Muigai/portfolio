@@ -3,28 +3,28 @@
         "id": 1,
         "icon":"fa fa-gamepad",
         "title": "Color Game using Basic HTML, CSS and JavaScript",
-        "demo_link": "https://ndungusam01.github.io/Color-Game/",
-        "source_code": "https://github.com/NdunguSam01/Color-Game"
+        "demo_link": "https://ndungu-muigai.github.io/Color-Game/",
+        "source_code": "https://github.com/ndungu-muigai/Color-Game"
     },
     {
         "id": 2,
         "icon": "fa fa-book",
         "title": "Dictionary application using HTML, CSS and JavaScript",
-        "demo_link": "https://ndungusam01.github.io/dictionary-app-project/",
-        "source_code": "https://github.com/NdunguSam01/dictionary-app-project.git"
+        "demo_link": "https://ndungu-muigai.github.io/dictionary-app-project/",
+        "source_code": "https://github.com/ndungu-muigai/dictionary-app-project.git"
     },
     {
         "id": 3,
         "icon": "fa fa-hourglass-start",
         "title": "Value Counter using HTML, CSS and JavaScript",
-        "demo_link": "https://ndungusam01.github.io/Counter-Using-HTML-CSS-JS/",
-        "source_code": "https://github.com/NdunguSam01/Counter-Using-HTML-CSS-JS"
+        "demo_link": "https://ndungu-muigai.github.io/Counter-Using-HTML-CSS-JS/",
+        "source_code": "https://github.com/ndungu-muigai/Counter-Using-HTML-CSS-JS"
     },
     {
         "id": 4,
         "icon": "fas fa-coins",
         "title": "Heads & tails game using HTML, CSS and JavaScript",
-        "demo_link": "https://ndungusam01.github.io/Heads-Tails-Game/",
-        "source_code": "https://github.com/NdunguSam01/Heads-Tails-Game"
+        "demo_link": "https://ndungu-muigai.github.io/Heads-Tails-Game/",
+        "source_code": "https://github.com/ndungu-muigai/Heads-Tails-Game"
     }
 ]
