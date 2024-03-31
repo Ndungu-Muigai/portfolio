@@ -18,8 +18,8 @@ const Skills = () =>
     }, []);
 
     return ( 
-        <div id='skills'>
-            <h2 className='my-5 text-center text-uppercase fs-2'>My skills</h2>
+        <>
+            <h1 className='text-uppercase text-center fw-bolder text-decoration-underline my-4'>My skills</h1>
             <div className="container">
                 <div className="row my-3">
                     <h2>Programming languages</h2>
@@ -87,7 +87,7 @@ const Skills = () =>
                         })}
                 </div>
             </div>
-        </div>
+        </>
      );
 }
  

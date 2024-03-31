@@ -6,6 +6,8 @@ import './assets/Navbar.css'
 import './assets/Skills.css'
 import './assets/Contacts.css'
 
+import { Routes, Route } from 'react-router-dom';
+
 import Footer from './Components/Footer';
 import NavBar from './Components/Navbar';
 import Home from './Pages/Home';
@@ -18,14 +20,22 @@ function App() {
   return (
     <>
       <NavBar/>
-      <div style={{marginTop: "80px", zIndex: "1000"}}>
-        <Home/>
+      <Routes>
+        <Route path='/' element={<Home/>}></Route>
+      </Routes>
+      <div id="about" style={{marginTop: "250px"}}>
         <About/>
-        <Skills/>
-        <Projects/>
-        <Contacts/>
-        <Footer/>
       </div>
+      <div id="skills">
+        <Skills/>
+      </div>
+      <div id="projects">
+        <Projects/>
+      </div>
+      <div id="contacts">
+        <Contacts/>
+      </div>
+      <Footer/>
     </>
   );
 }

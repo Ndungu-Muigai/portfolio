@@ -19,14 +19,14 @@ const Projects = () => {
     });
 
     return ( 
-        <div id='projects' className='my-5'>
-            <h1 className='text-uppercase text-center fw-bolder fs-2 text-decoration-underline my-4'>Projects completed</h1>
+        <>
+            <h1 className='text-uppercase text-center fw-bolder text-decoration-underline my-4'>Projects completed</h1>
             <div className="container">
                 <div className="row">
                     {projectsMap}
                 </div>
             </div>
-        </div>
+        </>
     );
 };
  

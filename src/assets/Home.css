@@ -4,13 +4,13 @@
     flex-direction: row;
     align-items: baseline;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
     color: #333;
 }
 .hero-content 
 {
     text-align: center;
-    margin-top: 20vh;
+    margin-top: 30vh;
 }
 .hero-content h1 
 {
